@@ -1,0 +1,76 @@
+{
+    "dev": {
+        "getActionsList": {
+            "request": "api/actions/",
+            "method": "get"
+        },
+        "addTask": {
+            "request": "api/tasks/",
+            "method": "post"
+        },
+        "getTasks": {
+            "request": "api/tasks/",
+            "method": "get"
+        },
+        "getTaskById": {
+            "request": "api/tasks/",
+            "method": "get"
+        },
+        "getAllReports": {
+            "request": "api/reports/",
+            "method": "get"
+        },
+        "getAllReportsOfTask": {
+            "request": "api/reports/",
+            "method": "get"
+        },
+        "getCurrentReport": {
+            "request": "api/reports/",
+            "method": "post"
+        },
+        "getAvaliableScanTypes": {
+            "request": "api/tasks/actions/",
+            "method": "get"
+        },
+        "getActionsOfTargets": {
+            "request": "api/tasks/targets/",
+            "method": "get"
+        },
+        "getActionsOfHosts": {
+            "request": "api/tasks/hosts/",
+            "method": "get"
+        },
+        "restartTask": {
+            "request": "api/tasks/",
+            "method": "post"
+        },
+        "deleteTask": {
+            "request": "api/tasks/",
+            "method": "delete"
+        },
+        "deleteAnyTasks": {
+            "request": "api/tasks/many/",
+            "method": "delete"
+        },
+        "deleteCurrentReport": {
+            "request": "api/reports/",
+            "method": "delete"
+        },
+        "deleteAllReports": {
+            "request": "api/reports/many/",
+            "method": "delete"
+        },
+        "downloadCurrentReport": {
+            "request": "api/reports/",
+            "method": "get"
+        }
+    },
+    "prod": {
+        "endpoint": "",
+        "getTasks": "",
+        "addTask": "",
+        "getReports": "",
+        "getReport": "",
+        "deleteReport": ""
+    }
+}

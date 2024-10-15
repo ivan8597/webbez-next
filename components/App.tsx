@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import MainPage from "./notes/components/examples/mainPage";
+
 import "./core/css/utilities.css";
+import "./App.css";
 import "./notes/css/notes.css";
 // import { PostProvider } from "./notes/components/hook/postContext";
 // import { TimeZoneProvider } from "./notes/components/hook/timezoneContext";
@@ -8,6 +9,8 @@ import { getCookie, setCookie } from "typescript-cookie";
 // import { LanguageProvider } from "./notes/components/hook/langContext";
 import { MainContextProvider } from "./core/components/context/mainContext";
 import { MainLanguageProvider } from "./core/components/context/mainLangContext";
+import TasksPage from "./tasks";
+import { TimeZoneProvider } from "./core/components/context/timezoneContext";
 function App() {
   useEffect(() => {
     // document
@@ -32,9 +35,12 @@ function App() {
   return (
     <MainLanguageProvider>
       <MainContextProvider>
-     
-        <MainPage />
+        <TimeZoneProvider>
+        <TasksPage />
+      
+        </TimeZoneProvider>
       </MainContextProvider>
+      
     </MainLanguageProvider>
   );
   // return (

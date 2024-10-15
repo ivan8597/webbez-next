@@ -1,0 +1,70 @@
+const contentRu = {
+  scanner: "Сканнер",
+  taskType: "Тип задачи",
+  selectAllFilters: "Выбрать все фильтры",
+  clearFilter: "Очистить фильтр",
+  total: "Всего",
+  addTask: "Добавить задачу",
+  search: "Поиск по url",
+  dateCreation: "Дата создания",
+  dateLastReport: "Дата последнего отчёта",
+  dataNo: "Нет данных",
+  tasks: "Задачи",
+  delete: "Удалить",
+  exitTaskDeletionMode: "Выход из режима удаления задачи",
+  deleteSelectedTasks: "Удалить выбранные задачи",
+  areYouSureWantToDeleteThisTask: "Вы точно хотите удалить эту задачу?",
+  areYouSureWantToDeleteThisTasks: "Вы точно хотите удалить эти задачи?",
+  cancellation: "Отмена",
+  all: "все",
+  show: "Показать",
+  startScan: "Запустить сканирование",
+  add: "Добавить",
+  resultTaskExecution: "Результаты",
+  notes: "Заметки",
+  restartTask: "Перезапустить задачу",
+  areYouSureYouWantToRestartThisTask:
+    "Вы точно хотите перезапустить эту задачу?",
+  confirm: "Подтвердить",
+  results: "Результаты",
+  deleteAllReports: "Удалить все отчёты",
+  areYouSureYouWantToDeleteAllReports: "Вы точно хотите удалить все отчёты?",
+  thereIsNoReportForThisTask: " Отчет по данной задаче отсутствует",
+  viewReport: "Поcмотреть отчет",
+  downloadReport: "Скачать отчет",
+  deleteReport: "Удалить отчет",
+  areYouSureYouWantToDeleteThisReport: "Вы точно хотите удалить этот отчет?",
+  isWbAddress: "Укажите веб-адрес в формате https://example.com",
+  isTaskSelected: "Выберите тип задачи",
+
+  taskTypes: {
+    "raskrytie-dannyh": "Поиск утечек информации и раскрытия служебных данных",
+    "uyazvimye-napravleniya":
+      "Поиск уязвимостей и векторов для проведения атак",
+    "polnoe-issledovanie": "Полное исследование",
+    "malware": "Поиск вирусов и стороннего кода",
+  },
+  taskShortTypes: {
+    "raskrytie-dannyh": "Поиск утечек",
+    "uyazvimye-napravleniya":
+      "Поиск уязвимостей",
+    "polnoe-issledovanie": "Полное исследование",
+    "malware": "Поиск вирусов",
+  },
+  catcher: {
+    "Task added successfully": "Задача добавлена успешно",
+    "The task was successfully restarted": "Задача успешно перезапущена",
+    "Such a task already exists": "Такая задача уже существует!",
+    "Task restart is already in progress": "Перезапуск задачи уже выполняется",
+    "The user is not authorized": "Пользователь не авторизован!",
+    "Setting the task is impossible! Contact support":
+      "Постановка задачи невозможна!Обратитесь в поддержку!",
+    "Error downloading report! Please try again later or contact support!":
+      "Ошибка скачивания отчета! Повторите попытку позднее или обратитесь в поддержку!",
+    "Error 404! Contact support": "Ошибка 404! Обратитесь в поддержку!",
+    "Invalid web address": "Недопустимый веб-адрес!",
+    "The server is temporarily unavailable. Please try again later or contact support":
+      "Сервер временно недоступен.Попробуйте позднее или обратитесь в поддержку.",
+  },
+};
+export default contentRu;
