@@ -8,8 +8,8 @@ import contentEn from "../../content/textContentEn";
 import contentEs from "../../content/textContentEs";
 import contentFr from "../../content/textContentFr";
 import contentRu from "../../content/textContent";
-import { Language } from "../../../core/types";
-import { useMainLanguage } from "../../../core/components/context/mainLangContext";
+import { Language } from "@ivan8597/core";
+import { useMainLanguage } from "@ivan8597/core";
 type LanguageProviderProps = {
   children: React.ReactNode;
 };

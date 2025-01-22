@@ -4,7 +4,7 @@ import Result from "../results/Result";
 import AddTasks from "./AddTasks";
 import { Screen, useTasks } from "../context/tasksContext";
 import { useLanguage } from "../context/langContext";
-import BlockNotes from "../../../notes";
+import {BlockNotes} from "@ivan8597/notes_package";
 import Page from "@/components/frontjango/components";
 
 

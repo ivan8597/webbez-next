@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
-
-import "./core/css/utilities.css";
+import "@ivan8597/core/dist/css/main.css";
+import "@ivan8597/notes_package/dist/css/main.css"
 import "./App.css";
-import "./notes/css/notes.css";
+// import "./notes/css/notes.css";
 // import { PostProvider } from "./notes/components/hook/postContext";
 // import { TimeZoneProvider } from "./notes/components/hook/timezoneContext";
 import { getCookie, setCookie } from "typescript-cookie";
 // import { LanguageProvider } from "./notes/components/hook/langContext";
-import { MainContextProvider } from "./core/components/context/mainContext";
-import { MainLanguageProvider } from "./core/components/context/mainLangContext";
+import { MainContextProvider } from "@ivan8597/core";
+import { MainLanguageProvider } from "@ivan8597/core";
 import TasksPage from "./tasks";
-import { TimeZoneProvider } from "./core/components/context/timezoneContext";
+import { TimeZoneProvider } from "@ivan8597/core";
 function App() {
   useEffect(() => {
     // document

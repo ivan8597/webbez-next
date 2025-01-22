@@ -7,9 +7,9 @@ import Pagination from "./Pagination";
 import Modal from "../ui/Modal";
 import moment from "moment-timezone";
 import { useLanguage } from "../context/langContext";
-import { useTimeZone } from "../../../core/components/context/timezoneContext";
+import { useTimeZone } from "@ivan8597/core";
 import { convertPunycodeToCyrillic } from "../../services/convert";
-import { useMain } from "../../../core/components/context/mainContext";
+import { useMain } from "@ivan8597/core";
 
 
 
